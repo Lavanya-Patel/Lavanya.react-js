@@ -1,0 +1,32 @@
+body{
+  background-color: #E0FBE2;
+}
+
+.btn{
+  width: 7%;
+  height: 55px;
+  font-size: 20px;
+  margin-left: 70px;
+  border-radius: 10px;
+  background-color: rgb(137, 137, 253);
+  color: white;
+}
+.post{
+  border:"1px solid black" ;
+  column-gap: 20px;
+
+  width: 70%;
+  margin-top:"20px auto";
+  text-align: center;
+  margin-left: 15%;
+  display: grid;
+  row-gap: 15px;
+  grid-template-columns: repeat(2,1fr);
+}
+.btns{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  height: 40px;
+  margin-left: 42%;
+}
