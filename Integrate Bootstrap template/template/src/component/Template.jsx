@@ -11,11 +11,10 @@ const Layout= ()=>{
              <div className="col-lg-6 pt-5">
               <h2 className="pt-5">Hi, Hi I am Marry</h2>
               <p>
-                {""}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quas natus, omnis eveniet accusantium sequi magni reprehenderit, perferendis voluptatibus adipisci eaque voluptate fugiat aperiam veritatis modi quis? Pariatur, dolorem? Molestias Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere voluptate ducimus sed sint adipisci culpa exercitationem delectus recusandae, perspiciatis officiis ad quam dignissimos voluptates illo fugit inventore cumque! Eum, odio!.{""}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quas natus, omnis eveniet accusantium sequi magni reprehenderit, perferendis voluptatibus adipisci eaque voluptate fugiat aperiam veritatis modi quis? Pariatur, dolorem? Molestias Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere voluptate ducimus sed sint adipisci culpa exercitationem delectus recusandae, perspiciatis officiis ad quam dignissimos voluptates illo fugit inventore cumque! Eum, odio!.
               </p>
               <p>I Make Youtube Video and write Blog</p>
-              <button className="btn">I am Available</button>
+              <button>I am Available</button>
               <p className="icons">
 
                 <span>
