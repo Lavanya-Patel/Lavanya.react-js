@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 
 const StudentForm = () => {
+  
     const [formData, setFormData] = useState({
         fullName: '',
         email: '',
@@ -25,6 +26,7 @@ const StudentForm = () => {
 
     return (
         <form onSubmit={handleSubmit} className="student-form">
+           
             <div className="form-group">
                 <label>
                     Full Name:
@@ -68,7 +70,7 @@ const StudentForm = () => {
                         name="grade"
                         value={formData.grade}
                         onChange={handleChange}>
-                        <option value="Freshman">Select</option>
+                        <option>Select</option>
                         <option value="Freshman">Freshman</option>
                         <option value="Sophomore">Sophomore</option>
                         <option value="Junior">Junior</option>
