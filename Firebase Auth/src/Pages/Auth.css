@@ -1,0 +1,59 @@
+*{
+    font-family: "coromorent";
+    margin: 0;
+    padding: 0;
+}
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 593px;   
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQBBAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIGBQP/xAAZEAEBAQEBAQAAAAAAAAAAAAAAAREhMQL/xAAbAQEAAwEBAQEAAAAAAAAAAAADAQIEBwAGBf/EABgRAQEBAQEAAAAAAAAAAAAAAAACARES/9oADAMBAAIRAxEAPwDmFB0LdZ8wBR7pMxIoD3SzgsIC3SzIoD3T5IKC3TzICirTzICh3TzIChqjzIChqmiZCCgqmmJFhFDVNMyAsgKo85wkak4SNSBrUkjUhI1gt14xZCRuQVa8mK1ID6q8UFdR3XMsxFAe6XJFhAW6aZFAe6bJFAW6eZAUVUeZAUNUeZAUNaeZAUNU0TACgqmmZFhIoappmQFkBVHnOEjUhIsga1YjchI1BbqCRqRMbkFVPEjQsga1CzwakQfpV4YDqe65xkiyGAt0s4Cg908yKAt00yAoqo8yAoapomQFDVHmQFDVNEyAoKppmBcMUNU0zICyAqj5PCRqEawNasSNSEjUFuoIsiyLIKqeJGzOLIGqQSNCyCqkLBqQH6Vc+uA6nuufTIoD3TzgpAW6eZAUVUeZAUNUeZAUNUeZAUNU0TICgqmmYFwA1TTMqCyAqj5PCRoxqQO6sY1ISNSCqkEahFkFVPLI1hFkDVIJGsMakFVIJGpCRrA7SAakB+kOcUHVd18LOCwBbp5kBRVR5kBQ1R5kBQ1R5kBQ1TTMhCKCqaIgWeEUNU0zKKLICqPk8JGs4SNQO6sRqQkawVUgxYSNyCqniRqEWQNUgkakJFkFVIWRqQkawNUhGpCRqQNUgirIqnVeuZUHVd18dMgKKqPMkBQ1R5kBRVR5kBQVTTMgKCqaIgWEUNU0zICyAqj5PCRqQi4HaWJG5CRqC2kGLISNyCqniRqGLA1SCRqEakFVIJGpCRYGqQY1ISNSBqkEjchI1ILdRuknBuTgjqnXKgrqe0+XmQFDtHmQFDVHmQFDVNEyAoKppiBZDFDVNMyiiwFUfM4SNQjUFurEjUhI1A7qCLISNyC2niRrCLIGqQRqEWToq1CyNSEjUDWoSNSEjUgapBI3ISNSC3UbpI3ISNyKbqm6SDcnBHR9cgCuobr8KZAUNUeZAUNU0RICgqmmJFwxQ1TTMgLICqPOcJGoY1IGtWGpCRqQW6giyEjcgt14kahiyB3UEaMakFWoJGpCRqQNagiyEjUga1CyNSJI3ILdRukjchI3IpuqbpI3ISNSKbo90k4PpJwR1TriwV03dfmTIChqmiZAigqmmJFhPANU0zIosgKo85wkakJ41BbqxGpCRrA1qDFhG5BbrxI0RZA7qCRoxqQW6gkakJFwNagxqQkakDWoWRqRJG5BbqN0kbkJG5FOqbpI38wkbkU3R7pI38wkakU3VN1ZOI3II6PrhwHTKZpUgB1olVgApokUAW1QsagB1dY3AFSFagBp5qNRQWoWNQA6hY1FA6hWpADSGo1FB681I3AGprUbgKaPW43AUU1uN/IK6PW5OAKqP//Z);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.account, .sign-up {
+    background: white;
+    border: 2px solid black;
+    padding: 20px;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQBBAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIGBQP/xAAZEAEBAQEBAQAAAAAAAAAAAAAAAREhMQL/xAAbAQEAAwEBAQEAAAAAAAAAAAADAQIEBwAGBf/EABgRAQEBAQEAAAAAAAAAAAAAAAACARES/9oADAMBAAIRAxEAPwDmFB0LdZ8wBR7pMxIoD3SzgsIC3SzIoD3T5IKC3TzICirTzICh3TzIChqjzIChqmiZCCgqmmJFhFDVNMyAsgKo85wkak4SNSBrUkjUhI1gt14xZCRuQVa8mK1ID6q8UFdR3XMsxFAe6XJFhAW6aZFAe6bJFAW6eZAUVUeZAUNUeZAUNaeZAUNU0TACgqmmZFhIoappmQFkBVHnOEjUhIsga1YjchI1BbqCRqRMbkFVPEjQsga1CzwakQfpV4YDqe65xkiyGAt0s4Cg908yKAt00yAoqo8yAoapomQFDVHmQFDVNEyAoKppmBcMUNU0zICyAqj5PCRqEawNasSNSEjUFuoIsiyLIKqeJGzOLIGqQSNCyCqkLBqQH6Vc+uA6nuufTIoD3TzgpAW6eZAUVUeZAUNUeZAUNUeZAUNU0TICgqmmYFwA1TTMqCyAqj5PCRoxqQO6sY1ISNSCqkEahFkFVPLI1hFkDVIJGsMakFVIJGpCRrA7SAakB+kOcUHVd18LOCwBbp5kBRVR5kBQ1R5kBQ1R5kBQ1TTMhCKCqaIgWeEUNU0zKKLICqPk8JGs4SNQO6sRqQkawVUgxYSNyCqniRqEWQNUgkakJFkFVIWRqQkawNUhGpCRqQNUgirIqnVeuZUHVd18dMgKKqPMkBQ1R5kBRVR5kBQVTTMgKCqaIgWEUNU0zICyAqj5PCRqQi4HaWJG5CRqC2kGLISNyCqniRqGLA1SCRqEakFVIJGpCRYGqQY1ISNSBqkEjchI1ILdRuknBuTgjqnXKgrqe0+XmQFDtHmQFDVHmQFDVNEyAoKppiBZDFDVNMyiiwFUfM4SNQjUFurEjUhI1A7qCLISNyC2niRrCLIGqQRqEWToq1CyNSEjUDWoSNSEjUgapBI3ISNSC3UbpI3ISNyKbqm6SDcnBHR9cgCuobr8KZAUNUeZAUNU0RICgqmmJFwxQ1TTMgLICqPOcJGoY1IGtWGpCRqQW6giyEjcgt14kahiyB3UEaMakFWoJGpCRqQNagiyEjUga1CyNSJI3ILdRukjchI3IpuqbpI3ISNSKbo90k4PpJwR1TriwV03dfmTIChqmiZAigqmmJFhPANU0zIosgKo85wkakJ41BbqxGpCRrA1qDFhG5BbrxI0RZA7qCRoxqQW6gkakJFwNagxqQkakDWoWRqRJG5BbqN0kbkJG5FOqbpI38wkbkU3R7pI38wkakU3VN1ZOI3II6PrhwHTKZpUgB1olVgApokUAW1QsagB1dY3AFSFagBp5qNRQWoWNQA6hY1FA6hWpADSGo1FB681I3AGprUbgKaPW43AUU1uN/IK6PW5OAKqP//Z);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 250px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+h2, h1 {
+    margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 80%;
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #6EACDA;
+    color: black;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.toggle-auth {
+    margin-top: 15px;
+    cursor: pointer;
+}
