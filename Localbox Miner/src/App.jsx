@@ -1,23 +1,27 @@
-import { useContext, useState } from 'react'
+import React, { useContext } from 'react';
+import { themecontext } from './context/Themecontext'
+import Button from "../src/component/Button"
+import Navbar from "../src/component/Navbar"
+import Midsection from  "../src/component/Midsection"
 import './App.css'
-import Navbar from './component/Navbar'
-import Midsection from './component/Midsection'
-import Button from './component/Button'
-import {themecontext} from "./context/Themecontext"
+const App = () => {
+  const { theme } = useContext(themecontext);
 
-function App() {
-  const {theme}=useContext(themecontext)
-  console.log(theme)
   return (
-    <>
-   
-    <div style={{backgroundColor:theme=="light"?"white":"black",color:theme=="light"?"black":"white"}}>
-    <Navbar />
-    <Midsection />
+    <div
+      style={{
+        backgroundColor: theme === 'light' ? 'white' : 'black',
+        color: theme === 'light' ? 'black' : 'white',
+        minHeight: '100vh', 
+        transition: 'background-color 0.3s, color 0.3s'
+      }}
+    >
+      <Navbar />
+      <Midsection />
+      <Button />
+      
     </div>
-   <Button />
-    </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
