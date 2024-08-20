@@ -5,7 +5,8 @@ const Auth = ({children}) => {
   
  
 if(!isAuth){
-alert("You'r not login")
+window.location.href="/login"
+alert("You'r not login!😪")
 }else{
     return children
 }

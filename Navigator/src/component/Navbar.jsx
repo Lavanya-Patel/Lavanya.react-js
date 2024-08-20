@@ -1,17 +1,23 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+
+
 
 const Navbar = () => {
-    return(
-    <div style={{display:"flex" ,justifyContent:"space-around"}}>
-    <Link to={"/"}>Home</Link>
-    <Link to={"/about"}>About</Link>
-    <Link to={"/login"}>Login</Link>
-    <Link to={"/product"}>Product</Link>
-    <Link to={"/description"}>Description</Link>
-  </div>
-    )
-  
+  return (
+    <div className='Nav'>
+      <ul className='NavUl'>
+       
+          <NavLink activeClassName='active' to={"/"}>Home</NavLink>
+          <NavLink activeClassName='active' to={"/about"}>About</NavLink>
+          <NavLink activeClassName='active' to={"/login"}>Login</NavLink>
+          <NavLink activeClassName='active' to={"/product"}>Product</NavLink>
+          <NavLink activeClassName='active' to={"/description"}>Description</NavLink>
+      
+      </ul>
+    </div>
+  )
+
 }
 
 export default Navbar

@@ -17,10 +17,10 @@ const Description = () => {
   return (
     <div>
       <h1>Description Page</h1>
-      <div style={{display:"flex", justifyContent:"center",textAlign:"center"}}>
-        <div style={{width:"50%"}}>
+      <div style={{display:"flex", justifyContent:"center",textAlign:"center",marginTop:"10px",backgroundColor:"#B6C7AA"}}>
+        <div style={{width:"54%"  ,height:"450px"}}>
             <h1>{description.id}</h1>
-            <img src={description.image} alt="" height={"250px"} width={"200px"} />
+            <img src={description.image} alt="" />
             <h3>{description.title}</h3>
             <p>{description.price}</p>
             <h4>{description.category}</h4>

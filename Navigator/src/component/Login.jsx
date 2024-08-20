@@ -22,12 +22,12 @@ const Login = () => {
     })
   }
   return (
-   <div>
-    <h1>Login Page</h1>
-    <form action="" onSubmit={(e)=>handlesubmit(e)}>
-      <input onChange={(e)=>setemail(e.target.value)} type="email"  placeholder='Enter Your Email'/>
-      <input onChange={(e)=>setpassword(e.target.value)} type="password" placeholder='Enter Your Password' />
-      <input type="submit" />
+   <div className='form-container'>
+    <h1 className='login-title '>Login Page</h1>
+    <form action="" onSubmit={(e)=>handlesubmit(e)} className='form'>
+      <input className='userName' onChange={(e)=>setemail(e.target.value)} type="email"  placeholder='Enter Your Email'/>
+      <input  className= 'userPassword'onChange={(e)=>setpassword(e.target.value)} type="password" placeholder='Enter Your Password' />
+      <input  className ='loginBtn'type="submit" />
     </form>
    </div>
   )
