@@ -1,0 +1,239 @@
+.account, .sign-up {
+    background: white;
+    border: 2px solid black;
+    padding: 20px;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 290px;
+    padding-top: 30px;
+    text-align: center;
+    
+    margin-top: 30px;
+}
+
+h2, h1 {
+    margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 80%;
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #6EACDA;
+    color: black;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e9f5fb; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a90e2; 
+    padding: 15px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #357ab8; 
+    transform: scale(1.05); 
+  }
+  
+  .nav-link:active {
+    transform: scale(0.95); 
+  }
+  
+  .nav-link:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .login-page {
+    background: white; 
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .login-page:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #333; /* Darker text for contrast */
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #5bc0de; /* Light blue border on focus */
+    box-shadow: 0 0 5px rgba(91, 192, 222, 0.5);
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #5bc0de; /* Light blue button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #31b0d5; /* Darker shade on hover */
+    transform: translateY(-2px);
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .remember-me p {
+    margin-left: 5px;
+    color: #555;
+  }
+  .data{
+    text-align: center;
+  }
+  .product{
+    height: 0px;
+  }
+  .Category{
+    width: 33%; 
+    margin-top: 20px;
+  }
+  .Category select{
+   height: 40px;
+   background-color: #F9F8F5;
+  }
+  .product-btn,button {
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 18px;
+    height: 30px;
+    margin-right: 30px;
+    text-align: center;
+  }
+.edit-data input{
+ width: 95%;
+}
+*{
+  font-family: "coromorent";
+  margin: 0;
+  padding: 0;
+}
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 593px;   
+ 
+}
+
+.account, .sign-up {
+  background: white;
+  border: 2px solid black;
+  padding: 20px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ib1zu003GUmol2SBDwDh-MFgrsz-jYD78g&s);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  height: 290px;
+  padding-top: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+h2, h1 {
+  margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"] {
+  width: 80%;
+  padding: 5px;
+  height: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+input[type="submit"] {
+  width: 30%;
+  padding: 10px;
+  background-color: #6EACDA;
+  color: black;
+  border: none;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.toggle-auth {
+  margin-top: 15px;
+  cursor: pointer;
+}
