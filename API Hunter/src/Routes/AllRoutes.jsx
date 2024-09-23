@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
-import Login from '../Pages/Login';
-import Dashboard from '../Pages/Dashboard';
-import SingleProductPage from '../Pages/SingleProductPage';
+import Login from './Login'
+import Dashboard from './Dashboard';
+import SingleProductPage from './SingleProductPage';
 import PrivateRoute from '../components/PrivateRoute';
 import Home from './Home';
 const AllRoutes = () => {

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import Loader from '../Pages/Loader';
+import Loader from '../components/Loader';
 
 const SingleProductPage = () => {
   const [product, setProduct] = useState(null);
@@ -43,6 +43,7 @@ const SingleProductPage = () => {
           <p style={{paddingBottom:"8px",fontSize:"20px"}} data-testid="product-category">{product.category}</p>
           <p style={{fontSize:"25px"}} data-testid="product-price">{product.price}</p>
           <p style={{paddingTop:"9px",fontSize:'20px'}} data-testid="product-details">{product.details}</p>
+
         </div>
       )}
     </div>

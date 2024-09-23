@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
-import { AuthContext } from '../components/AuthContext';
+import { AuthContext } from '../Context/AuthContext';
 import ProductsTable from '../components/ProductsTable';
-import Loader from '../Pages/Loader';
+import Loader from '../components/Loader';
 
 const Dashboard = () => {
   const [products, setProducts] = useState([]);

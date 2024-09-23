@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div style={{display:"flex", justifyContent:"space-between",fontSize:"20px",backgroundColor:'#D0B8A8',fontSize:"20px"}}>
+    <div style={{display:"flex", justifyContent:"space-between",backgroundColor:'#D0B8A8',fontSize:"20px"}}>
         <Link to={"/dashboard"}>Dashboard</Link>
         <Link to={"/singleproduct"}>singleproduct</Link>
         <Link to={"/login"}>Login</Link>
